@@ -6,4 +6,112 @@
 
 body {
   font-family: sans-serif, Verdana, Geneva, Tahoma !important;
+  overflow-x: hidden;
+  color: #fff !important;
+}
+
+.nav-link {
+  font-size: 24px !important;
+}
+
+.fecha {
+  font-family: "Mountains of Christmas", serif !important;
+}
+
+.hora {
+  font-family: "Signika", sans-serif !important;
+  line-height: 20px !important;
+  font-weight: 300 !important;
+}
+
+.imagen > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.carousel-slide {
+  display: none;
+  width: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.santa {
+  width: 100px;
+  height: 50px;
+  background-color: #3498db;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  animation: fly 3s ease-in-out infinite; /* La animación dura 5 segundos y se repite infinitamente */
+  animation-delay: 1s;
+}
+
+@keyframes fly {
+  0% {
+    left: -300px; /* Empieza fuera de la pantalla a la izquierda */
+    opacity: 0; /* Comienza transparente */
+  }
+  10% {
+    opacity: 1; /* Se vuelve completamente visible */
+  }
+  90% {
+    opacity: 1; /* Permanece visible durante el vuelo */
+  }
+  100% {
+    left: 100%; /* Termina fuera de la pantalla a la derecha */
+    opacity: 0; /* Desaparece al final del vuelo */
+  }
+}
+
+.container-regalos {
+  background: linear-gradient(to bottom, #ff0000 0%, #720809 100%);
+}
+
+.container-regalos p {
+  font-family: "Signika", sans-serif !important;
+  font-size: 24px !important;
+  color: #fff !important;
+  margin-top: 20px !important;
+  text-align: center;
+}
+
+.regalo {
+  transform: rotate(0deg);
+  position: relative;
+  transition: transform 0.5s ease;
+}
+
+.regalo:hover {
+  transform: rotate(-10deg);
+  cursor: pointer;
+}
+
+.regalo:hover p {
+  color: #aaa !important;
+}
+
+.container-nieve {
+  background-image: url("https://navidad.com/images2017/nieve2.png");
+  padding-bottom: 8rem;
+}
+
+.titulo {
+  font-family: "Mountains of Christmas", serif !important;
+  font-size: 56px !important;
+  font-weight: 700 !important;
+}
+
+.container-nieve p {
+  font-family: "Volkhov", serif !important;
+  font-size: 24px !important;
+  line-height: 50px !important;
+  text-align: center;
+}
+
+.container-footer {
+  background-image: url("https://navidad.com/images2017/footer.png");
+  position: relative;
+  top: -500px;
+  background-size: cover;
 }
