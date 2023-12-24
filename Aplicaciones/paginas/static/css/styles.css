@@ -93,7 +93,7 @@ body {
 
 .container-nieve {
   background-image: url("https://navidad.com/images2017/nieve2.png");
-  padding-bottom: 8rem;
+  padding-bottom: 18rem;
 }
 
 .titulo {
@@ -112,6 +112,66 @@ body {
 .container-footer {
   background-image: url("https://navidad.com/images2017/footer.png");
   position: relative;
-  top: -500px;
+  top: -300px;
+  width: 100%;
+  height: 800px;
   background-size: cover;
+}
+
+.musica-text {
+  font-family: "Mountains of Christmas", serif !important;
+  font-size: 60px !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+  text-align: center;
+}
+
+.menu-bg {
+  background-image: url("https://navidad.com/images2017/menu_titulo.png");
+  background-repeat: no-repeat;
+}
+
+.container-menu {
+  background-image: url("https://navidad.com/images2017/fondo_menu_solo.png");
+  position: relative;
+  top: -50px;
+  z-index: 6;
+}
+
+.contacto1 {
+  background-image: url("https://navidad.com/images2017/carta_a_santa2.png");
+  width: 25%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.contacto2 {
+  background-image: url("https://navidad.com/images2017/visita_nuestro_chat.png");
+  width: 25%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.contacto3 {
+  background-image: url("https://navidad.com/images2017/cuenta_de_navidad.png");
+  width: 25%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.contacto4 {
+  background-image: url("https://navidad.com/images2017/regala_un_juguete.png");
+  width: 25%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+.col-3 > a {
+  background-color: #c98405;
+  text-decoration: none;
+  border-radius: 1rem;
+  padding: 0.4rem 1rem;
+  color: #fff;
+  margin-top: 5rem;
+}
+
+.container-contacto {
+  margin-top: -3.2rem;
 }
