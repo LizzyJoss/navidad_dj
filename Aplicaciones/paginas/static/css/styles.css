@@ -175,3 +175,18 @@ body {
 .container-contacto {
   margin-top: -3.2rem;
 }
+
+.quienes-container {
+  margin-top: -3.2rem;
+  background-color: #fff;
+  width: 100%;
+  padding-top: 4rem;
+  padding-bottom: 25rem;
+}
+
+.quienes-container .container > p {
+  color: #666 !important;
+  font-family: "Volkhov", serif !important;
+  margin-top: 2rem;
+  font-size: 20px !important;
+}
