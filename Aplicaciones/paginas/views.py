@@ -9,3 +9,6 @@ def quienes(request):
 
 def contacto(request):
     return render(request, 'contacto.html')
+
+def videos(request):
+    return render(request, 'videos.html')
