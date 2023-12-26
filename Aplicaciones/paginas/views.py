@@ -6,3 +6,6 @@ def home(request):
 
 def quienes(request):
     return render(request, 'quienesSomos.html')
+
+def contacto(request):
+    return render(request, 'contacto.html')
