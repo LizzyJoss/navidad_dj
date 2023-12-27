@@ -12,3 +12,6 @@ def contacto(request):
 
 def videos(request):
     return render(request, 'videos.html')
+
+def carta_santa(request):
+    return render(request, 'cartaSanta.html')
