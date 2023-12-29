@@ -328,3 +328,34 @@ textarea:hover {
   justify-content: center;
   align-items: center;
 }
+.orange {
+  color: orange !important;
+  font-weight: 900;
+}
+
+.parrafo-carta {
+  line-height: 4rem;
+  text-align: center;
+}
+
+.subtitulo {
+  color: #000 !important;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-family: 'Mountains of Christmas', serif !important;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.imagen-carta-santa {
+  border-radius: 50%;
+}
+
+.btn-carta-santa {
+  background-color: #4b74a8;
+  color: #fff;
+  font-size: 1rem;
+  padding: 0.3rem 0.4rem;
+  border-radius: 0.2rem;
+  text-decoration: none;
+}

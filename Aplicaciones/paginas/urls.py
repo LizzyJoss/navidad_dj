@@ -11,4 +11,5 @@ urlpatterns = [
     path('villancicos/', views.villancicos),
     path('cocina/', views.cocina),
     path('actividades/', views.actividades),
+    path('cartaasanta/', views.carta_santa),
 ]

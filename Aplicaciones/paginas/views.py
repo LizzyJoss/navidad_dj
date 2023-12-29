@@ -27,3 +27,6 @@ def cocina(request):
 
 def actividades(request):
     return render(request, 'actividades.html')
+
+def carta_santa(request):
+    return render(request, 'cartaSanta.html')
