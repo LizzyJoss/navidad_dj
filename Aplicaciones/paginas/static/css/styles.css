@@ -68,12 +68,14 @@ body {
   background: linear-gradient(to bottom, #ff0000 0%, #720809 100%);
 }
 
-.container-regalos a {
+.container-regalos p {
   font-family: 'Signika', sans-serif !important;
-  font-size: 24px !important;
+  font-size: 25px !important;
   color: #fff !important;
   margin-top: 20px !important;
   text-align: center;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-weight: 300 !important;
 }
 
 .regalo {
@@ -101,6 +103,10 @@ body {
   font-family: 'Mountains of Christmas', serif !important;
   font-size: 56px !important;
   font-weight: 700 !important;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.parte {
+  text-shadow: black 0.1em 0.1em 0.2em;
 }
 
 .container-nieve p {
@@ -120,27 +126,41 @@ body {
 }
 
 .musica-text {
-  font-family: 'Mountains of Christmas', serif !important;
+  font-family: 'Great Vibes', cursive !important;
   font-size: 60px !important;
-  font-weight: 700 !important;
+  font-weight: 100 !important;
   color: #000 !important;
   text-align: center;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  margin: 0px;
 }
 
 .menu-bg {
   background-image: url('https://navidad.com/images2017/menu_titulo.png');
   background-repeat: no-repeat;
-  text-align: center;
-  display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  color: #000;
-  font-family: 'Great Vibes', cursive !important;
-  padding: 0;
-  margin: 0;
   cursor: pointer;
+  display: flex;
+  vertical-align: top;
+  margin: 10px 0px 0px 0px;
+  width: 457px;
 }
-
+.t-menu {
+  font-family: 'Great Vibes', cursive !important;
+  color: #000;
+  text-align: center;
+}
+.menu-1 {
+  text-align: right;
+  display: inline-block;
+}
+.menu-2 {
+  display: inline-block;
+}
 .container-menu {
   background-image: url('https://navidad.com/images2017/fondo_menu_solo.png');
   position: relative;
@@ -171,8 +191,16 @@ body {
   width: 25%;
   height: 300px;
   background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+}
 .col-3 > a {
   background-color: #c98405;
   text-decoration: none;
@@ -180,6 +208,9 @@ body {
   padding: 0.4rem 1rem;
   color: #fff;
   margin-top: 5rem;
+  border: 1px solid #000;
+  text-shadow: 1px 1px 3px #000000;
+  font-family: vollkorn, serif;
 }
 
 .container-contacto {
