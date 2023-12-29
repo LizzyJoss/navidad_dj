@@ -12,3 +12,18 @@ def contacto(request):
 
 def videos(request):
     return render(request, 'videos.html')
+
+def historia(request):
+    return render(request, 'historia.html')
+
+def cuentos(request):
+    return render(request, 'cuentos.html')
+
+def villancicos(request):
+    return render(request, 'villancicos.html')
+
+def cocina(request):
+    return render(request, 'cocina.html')
+
+def actividades(request):
+    return render(request, 'actividades.html')

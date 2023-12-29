@@ -15,11 +15,11 @@ body {
 }
 
 .fecha {
-  font-family: "Mountains of Christmas", serif !important;
+  font-family: 'Mountains of Christmas', serif !important;
 }
 
 .hora {
-  font-family: "Signika", sans-serif !important;
+  font-family: 'Signika', sans-serif !important;
   line-height: 20px !important;
   font-weight: 300 !important;
 }
@@ -68,8 +68,8 @@ body {
   background: linear-gradient(to bottom, #ff0000 0%, #720809 100%);
 }
 
-.container-regalos p {
-  font-family: "Signika", sans-serif !important;
+.container-regalos a {
+  font-family: 'Signika', sans-serif !important;
   font-size: 24px !important;
   color: #fff !important;
   margin-top: 20px !important;
@@ -80,6 +80,7 @@ body {
   transform: rotate(0deg);
   position: relative;
   transition: transform 0.5s ease;
+  text-decoration: none !important;
 }
 
 .regalo:hover {
@@ -87,30 +88,30 @@ body {
   cursor: pointer;
 }
 
-.regalo:hover p {
+.regalo:hover a {
   color: #aaa !important;
 }
 
 .container-nieve {
-  background-image: url("https://navidad.com/images2017/nieve2.png");
+  background-image: url('https://navidad.com/images2017/nieve2.png');
   padding-bottom: 18rem;
 }
 
 .titulo {
-  font-family: "Mountains of Christmas", serif !important;
+  font-family: 'Mountains of Christmas', serif !important;
   font-size: 56px !important;
   font-weight: 700 !important;
 }
 
 .container-nieve p {
-  font-family: "Volkhov", serif !important;
+  font-family: 'Volkhov', serif !important;
   font-size: 24px !important;
   line-height: 50px !important;
   text-align: center;
 }
 
 .container-footer {
-  background-image: url("https://navidad.com/images2017/footer.png");
+  background-image: url('https://navidad.com/images2017/footer.png');
   position: relative;
   top: -300px;
   width: 100%;
@@ -119,7 +120,7 @@ body {
 }
 
 .musica-text {
-  font-family: "Mountains of Christmas", serif !important;
+  font-family: 'Mountains of Christmas', serif !important;
   font-size: 60px !important;
   font-weight: 700 !important;
   color: #000 !important;
@@ -127,37 +128,46 @@ body {
 }
 
 .menu-bg {
-  background-image: url("https://navidad.com/images2017/menu_titulo.png");
+  background-image: url('https://navidad.com/images2017/menu_titulo.png');
   background-repeat: no-repeat;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: 'Great Vibes', cursive !important;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
 }
 
 .container-menu {
-  background-image: url("https://navidad.com/images2017/fondo_menu_solo.png");
+  background-image: url('https://navidad.com/images2017/fondo_menu_solo.png');
   position: relative;
   top: -50px;
   z-index: 6;
 }
 
 .contacto1 {
-  background-image: url("https://navidad.com/images2017/carta_a_santa2.png");
+  background-image: url('https://navidad.com/images2017/carta_a_santa2.png');
   width: 25%;
   height: 300px;
   background-repeat: no-repeat;
 }
 .contacto2 {
-  background-image: url("https://navidad.com/images2017/visita_nuestro_chat.png");
+  background-image: url('https://navidad.com/images2017/visita_nuestro_chat.png');
   width: 25%;
   height: 300px;
   background-repeat: no-repeat;
 }
 .contacto3 {
-  background-image: url("https://navidad.com/images2017/cuenta_de_navidad.png");
+  background-image: url('https://navidad.com/images2017/cuenta_de_navidad.png');
   width: 25%;
   height: 300px;
   background-repeat: no-repeat;
 }
 .contacto4 {
-  background-image: url("https://navidad.com/images2017/regala_un_juguete.png");
+  background-image: url('https://navidad.com/images2017/regala_un_juguete.png');
   width: 25%;
   height: 300px;
   background-repeat: no-repeat;
@@ -186,13 +196,13 @@ body {
 
 .quienes-container .container > p {
   color: #666 !important;
-  font-family: "Volkhov", serif !important;
+  font-family: 'Volkhov', serif !important;
   margin-top: 2rem;
   font-size: 20px !important;
 }
 
 .container-form {
-  background: url("https://navidad.com/images2017/carta.png");
+  background: url('https://navidad.com/images2017/carta.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 800px;
@@ -248,4 +258,36 @@ textarea:hover {
 
 .boton-form:hover {
   background-color: #333;
+}
+
+.img-villancicos {
+  border-radius: 50%;
+}
+.titulo-villancicos {
+  font-family: Mountains of Christmas, serif !important;
+  color: black !important;
+  font-size: 25px !important;
+  text-align: center !important;
+}
+#volver a {
+  width: 100px;
+  height: 33px;
+  color: #ffffff;
+  text-decoration: none;
+  text-shadow: 0 1px black;
+  text-align: center;
+  position: relative;
+  background-color: #4471a9;
+  padding: 5px px 15px;
+  font-size: 25px;
+  border: 0;
+  margin: 30px;
+  border-radius: 5px;
+  background-image: -webkit-linear-gradient(top, #5884bc, #395e8d);
+  box-shadow: 0px 5px 0px #223955, 0px 8px 5px rgba(0, 0, 0, 0.3);
+}
+.volver {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
