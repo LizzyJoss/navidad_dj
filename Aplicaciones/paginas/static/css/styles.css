@@ -105,6 +105,12 @@ body {
   font-weight: 700 !important;
   text-shadow: black 0.1em 0.1em 0.2em;
 }
+.subtitulos {
+  font-family: 'Mountains of Christmas', serif !important;
+  font-size: 56px !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+}
 .parte {
   text-shadow: black 0.1em 0.1em 0.2em;
 }
