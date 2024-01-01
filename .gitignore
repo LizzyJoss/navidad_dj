@@ -31,4 +31,4 @@ __pycache__/
 
 # Archivos de dependencias (pueden variar según tu entorno)
 pip-*.log
-requirements.txt
+
