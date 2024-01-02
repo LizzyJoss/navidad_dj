@@ -12,4 +12,10 @@ urlpatterns = [
     path('cocina/', views.cocina),
     path('actividades/', views.actividades),
     path('cartaasanta/', views.carta_santa),
+    path('regalos/', views.regalos),
+    path('decoracion/', views.decoracion),
+    path('juegos/', views.juegos),
+    path('bajarimagenes/', views.bajarimagenes),
+    path('navidadenelmundo/', views.navidadenelmundo),
+    
 ]
